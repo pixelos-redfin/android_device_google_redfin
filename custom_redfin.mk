@@ -43,3 +43,5 @@ PRODUCT_COPY_FILES := $(filter-out \
 
 # Disable artifact path requirements enforcement
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := false
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/redfin/redfin/overlay
