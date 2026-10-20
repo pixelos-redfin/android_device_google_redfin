@@ -35,3 +35,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=redfin
 
 $(call inherit-product, vendor/google/redfin/redfin-vendor.mk)
+
+PRODUCT_COPY_FILES := $(filter-out \
+    vendor/google/redfin/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig:% \
+    vendor/google/redfin/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt:%, \
+    $(PRODUCT_COPY_FILES))
