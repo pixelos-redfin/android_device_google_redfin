@@ -40,3 +40,6 @@ PRODUCT_COPY_FILES := $(filter-out \
     vendor/google/redfin/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig:% \
     vendor/google/redfin/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt:%, \
     $(PRODUCT_COPY_FILES))
+
+# Disable artifact path requirements enforcement
+PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := false
