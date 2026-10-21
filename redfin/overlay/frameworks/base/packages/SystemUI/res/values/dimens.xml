@@ -42,5 +42,10 @@
      For devices with sensors on the back of the device, this corresponds to the location on the
      screen directly in front of the sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">620px</dimen>
+
+    <!-- Stock Quick Settings control panel / shade header dimensions -->
+    <dimen name="qs_header_height">136px</dimen>
+    <dimen name="qs_header_row_min_height">136px</dimen>
+    <dimen name="large_screen_shade_header_height">136px</dimen>
 </resources>
 
