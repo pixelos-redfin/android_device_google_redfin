@@ -51,3 +51,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/redfin/redfin/overlay
 
 PRODUCT_SOURCE_ROOT_DIRS += -hardware/google/camera
 
+# Drop AOSP Camera2
+PRODUCT_PACKAGES := $(filter-out Camera2, $(PRODUCT_PACKAGES))
+
