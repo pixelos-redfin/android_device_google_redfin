@@ -45,3 +45,6 @@ PRODUCT_COPY_FILES := $(filter-out \
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := false
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += device/google/redfin/redfin/overlay
+
+PRODUCT_SOURCE_ROOT_DIRS += -hardware/google/camera
+

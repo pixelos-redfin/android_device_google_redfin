@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 else
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 endif
-$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_system.mk)
+$(call inherit-product, device/google/redfin/generic_system_redfin.mk)
 
 # Enable mainline checking
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := relaxed
