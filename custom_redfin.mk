@@ -38,6 +38,7 @@ TARGET_DOES_NOT_SUPPORT_GOOGLE_BATTERY := false
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="redfin-user 14 UP1A.231105.001.B2 11260668 release-keys" \
     BuildFingerprint=google/redfin/redfin:14/UP1A.231105.001.B2/11260668:user/release-keys \
+    BuildVersionTags=release-keys \
     DeviceProduct=redfin
 
 $(call inherit-product, vendor/google/redfin/redfin-vendor.mk)
