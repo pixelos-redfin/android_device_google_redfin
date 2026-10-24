@@ -8,6 +8,9 @@
 # Drop LineageOS Aperture camera
 PRODUCT_NO_CAMERA := true
 
+# Official build & updater configuration
+IS_OFFICIAL := true
+
 # Inherit some common PixelOS stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
